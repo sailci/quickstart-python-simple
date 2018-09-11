@@ -1,0 +1,7 @@
+tasks:
+  test:
+    image: python:3.7
+    command:
+      - python3
+    args:
+      - test_calc.py
